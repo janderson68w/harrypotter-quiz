@@ -1,0 +1,112 @@
+{
+    "q1": {
+        "id": "q1",
+        "question": "What are Harry Potter's parents names?",
+        "answers": [
+            "James and Lily",
+            "Voldemort and Bellatrix",
+            "Remus and Nymphadora",
+            "Arthur and Molly"
+        ],
+        "correctAnswer": "James and Lily"
+    },
+    "q2": {
+        "id": "q2",
+        "question": "What was Hagrid's pet dog called?",
+        "answers": [
+            "Dobby",
+            "Scabbers",
+            "Fang",
+            "Hedwig"
+        ],
+        "correctAnswer": "Fang"
+    },
+    "q3": {
+        "id": "q3",
+        "question": "Name the killing Curse",
+        "answers": [
+            "Lumos",
+            "Avada Kedavra",
+            "Crucio",
+            "Imperio"
+        ],
+        "correctAnswer": "Avada Kedavra"
+    },
+    "q4": {
+        "id": "q4",
+        "question": "What spell would you use to open a door?",
+        "answers": [
+            "Riddikulus",
+            "Lumos",
+            "Alohomora",
+            "Expelliarmus"
+        ],
+        "correctAnswer": "Alohomora"
+    },
+    "q5": {
+        "id": "q5",
+        "question": "What is Harry's relation to Serius Black",
+        "answers": [
+            "Uncle",
+            "Father",
+            "Brother",
+            "Godfather"
+        ],
+        "correctAnswer": "Godfather"
+    },
+    "q6": {
+        "id": "q6",
+        "question": "What is a Horcrux?",
+        "answers": [
+            "An object formed by dark magic",
+            "A stone that gives the owner great power",
+            "A type of snake",
+            "An object that makes you invisible"
+        ],
+        "correctAnswer": "An object formed by dark magic"
+    },
+    "q7": {
+        "id": "q7",
+        "question": "What is the Longest Harry Potter book?",
+        "answers": [
+            "Harry Potter and The Deathly Hollows",
+            "Harry Potter and the Philosophers Stone",
+            "Harry Potter and The Goblet of Fire",
+            "Harry Potter and The Order of the Phoenix"
+        ],
+        "correctAnswer": "Harry Potter and The Order of the Phoenix"
+    },
+    "q8": {
+        "id": "q8",
+        "question": "What are the Deathly Hollows?",
+        "answers": [
+            "A spooky story",
+            "Objects that are collected to make one the master of death",
+            "A pub where Witches and Wizards like to go to hang out",
+            "A secret group of Witches and wizards that control what really happens in the world"
+        ],
+        "correctAnswer": "Objects that are collected to make one the master of death"
+    },
+    "q9": {
+        "id": "q9",
+        "question": "What was Harry Potters Patronus",
+        "answers": [
+            "Stag",
+            "Otter",
+            "Black Swan",
+            "Mouse"
+        ],
+        "correctAnswer": "Stag"
+    },
+    "q10": {
+        "id": "q10",
+        "question": "Where do the Dursley's live",
+        "answers": [
+            "4 Privet Drive",
+            "10 Privet Drive",
+            "11 Privet Drive",
+            "6 Privet Drive"
+        ],
+        "correctAnswer": "4 Privet Drive"
+    }
+}

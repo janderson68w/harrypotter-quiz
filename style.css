@@ -1,0 +1,116 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    height:100vh;
+    background: url(media/great-hall.png) no-repeat center fixed;
+    background-size: cover;
+}
+.start-screen, .score-container {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+#start-button, #play-again {
+    font-size: 2em;
+    padding: 0.5em 1.8em;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.685);
+}
+#play-again {
+    margin-top: 1em;
+}
+.display-container {
+    background-color: rgba(243, 243, 243, 0.692);
+    padding: 3.1em 1.8em;
+    width: 80%;
+    max-width: 37.5em;
+    margin: 0 auto;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 5px;
+}
+.header {
+    margin-bottom: 1.8em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0.9em;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+.deathly-hallows {
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.685);
+}
+.question {
+    margin-bottom: 1.25em;
+    font-weight: 300;
+}
+.options-div {
+    font-size: 0.9em;
+    width: 100%;
+    padding: 1em;
+    margin: 0.3em 0;
+    /*probably need to change this up some*/
+    text-align: left;
+    outline: none;
+    background: transparent;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+.options-div:disabled {
+    color: rgb(0, 0, 0);
+    cursor: not-allowed;
+}
+#prev {
+    font-size: 1em;
+    font-weight: 200;
+    margin-top: 1.5em;
+    background-color: rgba(243, 243, 243, 1);
+    padding: 0.7em 1.8em;
+    border-radius: 5px;
+    float: left;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.685);
+}
+#next {
+    font-size: 1em;
+    font-weight: 200;
+    margin-top: 1.5em;
+    background-color: rgba(243, 243, 243, 1);
+    padding: 0.7em 1.8em;
+    border-radius: 5px;
+    float: right;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.685);
+}
+.hide {
+    display: none;
+}
+.incorrect {
+    background-color: rgba(233, 93, 93, 0.685);
+    color: rgb(255, 0, 0);
+    border-color: rgb(255, 0, 0);
+}
+.correct {
+    background-color: rgba(105, 233, 93, 0.685);
+    color: rgb(0, 255, 0);
+    border-color: rgb(0, 255, 0);
+}
+#user-score {
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+}

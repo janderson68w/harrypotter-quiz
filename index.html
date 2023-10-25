@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Harry Potter quiz!">
+    <link rel="icon" type="image/x-icon" href="media/wands.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title> Harry Potter Quiz </title>
+</head>
+<body>
+    <noscript>
+        <div>you must have Javascript enabled to use this app!</div>
+    </noscript>
+    <div class="start-screen">
+        <button id="start-button"> Start! </button>
+    </div>
+    <div class="display-container">
+        <div class="header">
+            <div class="number-of-questions">
+                <span class="question-number">
+                    1 of 5
+                </span>
+            </div>
+            <img src="media/deathly-hallows.jpg" class="deathly-hallows" alt="deathly hallows symbol" width="40px">            
+        </div>
+        <div class="container">
+            <!--questions and answer options go here-->
+        </div>
+        <button id="prev"> Previous </button>
+        <button id="next"> Next </button>
+    </div>
+    <div class="score-container hide">
+        <div class="user-score"> Score </div>
+        <button id="play-again"> Play Again! </button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
